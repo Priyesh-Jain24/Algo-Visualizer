@@ -3,283 +3,241 @@
 An interactive algorithm visualization web app that helps students and developers understand how popular algorithms work — visually and intuitively.
 It covers a wide range of Data Structures and Algorithms, including Arrays, Sorting, Graphs, Queues, Recursion, and more.
 
-![HOME PAGE](githome/home1.png)
-![HOME PAGE](githome/home2.png)
-![GRAPH](githome/home3.png)
+## 🖼️ Screenshots
 
+### Home Page
+![Home Page](git_home/home1.png)
 
-F⚙️ Features
+### Alternate Home Page
+![Home Page 2](git_home/home2.png)
+
+### Graph Visualization
+![Graph Visualization](git_home/graph.png)
+
+⚙️Features
 
 ✅ Visualizes sorting, searching, graph traversal, number theory, and more
+
 ✅ Interactive buttons and animations for each algorithm
+
 ✅ Time and space complexity charts
+
 ✅ Modular structure — each algorithm has its own HTML file
+
 ✅ Built with HTML, CSS, and JavaScript (no frameworks)
+
 ✅ Beginner-friendly, educational design
 
+## ⚙️ Data Structures and Algorithms Implemented
+
+A comprehensive collection of **Data Structures**, **Algorithms**, and **Visualization Modules** implemented in this project.
+
+---
+
+### ⚙️ DATA STRUCTURES
+- Disjoint Set  
+- String  
+- Linked List  
+- Graph  
+- Stack  
+- Heap  
+- Array  
+- Queue  
+- Hashing Table  
+- Matrix  
+- Binary Search Tree  
+
+---
+
+### 🔢 ARRAY ALGORITHMS
+- Rain Water Trapping  
+- Binary Search  
+- Sliding Window  
+- Prefix Sum  
+- Array Partitioning  
+- Linear Search  
+- Kadane’s Algorithm  
+- Linear Search *(Duplicate kept for completeness)*  
+
+---
+
+### 🧱 STACK ALGORITHMS
+- Prefix Evaluation  
+- Infix to Prefix  
+- Balanced Bracket  
+- Min Stack O(1)  
+- Infix to Postfix  
+- Maximum Area Under Histogram  
+- Postfix Evaluation  
+
+---
+
+### 🧮 MATRIX ALGORITHMS
+- Kadane’s 2D  
+- Sorted Matrix Search  
+- Transpose  
+- Sparse Matrix  
+
+---
+
+### 🧭 QUEUE ALGORITHMS
+- Breadth First Search (BFS)
+- Queue ADT
+
+---
+
+### ⛰️ HEAP ALGORITHMS
+- Heap Sort  
+- Heapify  
+
+---
+
+### 🔗 LINKED LIST ALGORITHMS
+- Queue Using Linked List  
+- Circular Linked List  
+- Stack Using Linked List  
+- Circular Doubly Linked List  
+- Doubly Linked List  
+- Singly Linked List  
+
+---
+
+### 🌳 BINARY SEARCH TREE ALGORITHMS
+- BST Implementation  
+- Traversal (Inorder, Preorder, Postorder)  
+
+---
+
+### 🕸️ GRAPH ALGORITHMS
+- DFS Maze  
+- Cycle Detection (BFS / DFS)  
+- Depth First Search (DFS)  
+- Flood Fill  
+- Graph Coloring  
+- Breadth First Search (BFS)  
+- Travelling Salesman  
+- Kruskal’s Algorithm  
+- Bridges  
+- Color Filling  
+- Topological Sort  
+
+---
+
+### ⚡ SORTING ALGORITHMS
+- Counting Sort  
+- Bubble Sort  
+- Merge Sort  
+- Quick Sort  
+- Selection Sort  
+- Heap Sort  
+- Shell Sort  
+- Insertion Sort  
 
-🧩 Topics & Algorithms Included (Jumbled Order)
-⚙️ DATA STRUCTURES
+---
 
-Disjoint Set
+### 🔍 BINARY SEARCH ALGORITHMS
+- Find Peak Element  
+- Bitonic Array Search  
+- Binary Search  
+- Minimum Page Allocation  
+- Start Point of Rotated Array  
 
-String
+---
 
-Linked List
+### 🌀 RECURSION ALGORITHMS
+- H Tree Animation  
+- Factorial  
+- Tower of Hanoi  
+- Snowflakes Animation  
 
-Graph
+---
 
-Stack
+### ♟️ BACKTRACKING ALGORITHMS
+- Maze Generator  
+- Knight’s Tour  
+- Graph Coloring  
+- N-Queen Problem  
+- Sudoku Solver  
 
-Heap
+---
 
-Array
+### ⚔️ DIVIDE AND CONQUER PARADIGM
+- Counting Inversions  
+- Quick Sort  
+- Merge Sort  
 
-Queue
+---
 
-Hashing Table
+### 💰 GREEDY PARADIGM
+- Huffman Coding  
+- Kruskal’s Algorithm  
+- Fractional Knapsack  
+- Counting Money  
+- Job Scheduling  
 
-Matrix
+---
 
-Binary Search Tree
+### 🧠 DYNAMIC PROGRAMMING PARADIGM
+- Subset Sum  
+- Travelling Salesman  
+- 0/1 Knapsack  
+- Cutting Rod  
+- Longest Common Subsequence  
+- Unbounded Knapsack  
+- Coin Change  
+- Ladders Problem  
+- Levenshtein Distance  
 
-🔢 ARRAY ALGORITHMS
+---
 
-Rain Water Trapping
+### ✨ STRING ALGORITHMS
+- Robin Karp  
+- Naive Matching  
+- KMP  
+- Z Algorithm  
+- Boyer Moore  
 
-Binary Search
+---
 
-Sliding Window
+### 🔗 DISJOINT SET ALGORITHMS
+- Union  
+- Find  
 
-Prefix Sum
+---
 
-Array Partitioning
+### 🧩 HASHING TABLE ALGORITHMS
+- Quadratic Probing  
+- Linear Probing  
+- Double Hashing  
+- Closed Hashing  
+- Open Hashing  
 
-Linear Search
+---
 
-Kadanes
+### ⏱️ TIME COMPLEXITY
+- Big Theta (θ)  
+- Big Omega (Ω)  
+- Big Oh (O)  
 
-Linear Search (Duplicate kept for completeness)
+---
 
-🧱 STACK ALGORITHMS
+### 🔢 NUMBER THEORY
+- Binary Exponentiation  
+- Extended Euclidean Algorithm  
+- Sieve of Eratosthenes  
+- GCD (Euclidean)
 
-Prefix Evaluation
 
-Infix To Prefix
 
-Balanced Bracket
 
-Min Stack O(1)
 
-Infix To Postfix
 
-Maximum Area Under The Histogram
 
-Postfix Evaluation
 
-🧮 MATRIX ALGORITHMS
 
-Kadanes 2D
 
-Sorted Matrix Search
 
-Transpose
 
-Sparse Matrix
-
-🧭 QUEUE ALGORITHMS
-
-BFS
-
-⛰️ HEAP ALGORITHMS
-
-Heap Sort
-
-Heapify
-
-🔗 LINKED LIST ALGORITHMS
-
-Queue Using Linked List
-
-Circular Linked List
-
-Stack Using Linked List
-
-Circular Doubly List
-
-Doubly Linked List
-
-Singly Linked List
-
-🌳 BINARY SEARCH TREE ALGORITHMS
-
-BST Implementation
-
-Traversal (Inorder, Preorder, Postorder)
-
-🕸️ GRAPH ALGORITHMS
-
-DFS Maze
-
-Cycle Detection (BFS / DFS)
-
-DFS
-
-Flood Fill
-
-Graph Coloring
-
-BFS
-
-Travelling Salesman
-
-Kruskals
-
-Bridges
-
-Color Filling
-
-Topological Sort
-
-⚡ SORTING ALGORITHMS
-
-Counting Sort
-
-Bubble Sort
-
-Merge Sort
-
-Quick Sort
-
-Selection Sort
-
-Heap Sort
-
-Shell Sort
-
-Insertion Sort
-
-🔍 BINARY SEARCH ALGORITHMS
-
-Find Peak Element
-
-Biotonic Array Search
-
-Binary Search
-
-Minimum Page Allocation
-
-Start Point Of Rotated Array
-
-🌀 RECURSION ALGORITHMS
-
-H Tree Animation
-
-Factorial
-
-Tower Of Hanoi
-
-Snow Flakes Animation
-
-♟️ BACKTRACKING ALGORITHMS
-
-Maze Generator
-
-Knight Tour
-
-Graph Coloring
-
-N-Queen
-
-Sudoku
-
-⚔️ DIVIDE AND CONQUER PARADIGM
-
-Counting Inversion
-
-Quick Sort
-
-Merge Sort
-
-💰 GREEDY PARADIGM
-
-Huffman Coding
-
-Kruskals
-
-Fractional Knapsack
-
-Counting Money
-
-Job Scheduling
-
-🧠 DYNAMIC PROGRAMMING PARADIGM
-
-Subset Sum
-
-Travelling Salesman
-
-0/1 Knapsack
-
-Cutting Rod
-
-Longest Common Subsequence
-
-Unbounded Knapsack
-
-Coin Change
-
-Ladders Problem
-
-Levenshtein Distance
-
-✨ STRING ALGORITHMS
-
-Robin Karp
-
-Naive Matching
-
-KMP
-
-Z Algorithm
-
-Boyer Moore
-
-🔗 DISJOINT SET ALGORITHMS
-
-Union
-
-Find
-
-🧩 HASHING TABLE ALGORITHMS
-
-Quadratic Probing
-
-Linear Probing
-
-Double Hashing
-
-Closed Hashing
-
-Open Hashing
-
-⏱️ TIME COMPLEXITY
-
-Big Theta (θ)
-
-Big-Omega (Ω)
-
-Big-Oh (O)
-
-🔢 NUMBER THEORY
-
-Binary Exponentiation
-
-Extended Eucledian
-
-Sieve Of Eratosthenes
-
-GCD (Eucledian)
 
 
 
