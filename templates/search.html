@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Binary Search</title>
+	<link rel="stylesheet" href="unified_style.css">
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+	<p class='heading'>Binary Search</p>
+	<div class='grid'></div>
+
+	</div>
+
+	<div class="circular__read">
+		
+	</div>
+	<a href="../index.html" class="back-button">Back</a>
+	<script>
+
+// Main
+		let grid = document.querySelector('.grid');
+		let algo = [
+			{
+				name: 'Binary Search',
+				link: `search_algorithms/binary.html`
+			},
+			{
+				name: "Start Point Of Roated Sorted Array",
+				link: `search_algorithms/rotated_array.html`
+			},
+			{
+				name: "Find Peak Element",
+				link: `search_algorithms/peak_element.html`
+			},
+			{
+				name: "Biotonic Array",
+				link: `search_algorithms/biotonic_array.html`
+			},
+// 			{
+// 				name: "Minimum Page Allocation",
+// 				link: `search_algorithms/minimum_page_allocation.html`
+// 			}
+			
+		]
+		init();
+
+// Utility function 
+
+		function init() {
+			algo.forEach((e, i) => {
+				let html = `
+						<a href="${e.link}" class="algo__link">${e.name}</a>
+				`
+				let algo = document.createElement('div');
+				algo.classList.add('algo');
+				algo.innerHTML = html;
+				grid.appendChild(algo);
+			})
+		}
+	</script>
+</body>
+</html>

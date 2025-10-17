@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Number Theory</title>
+	<link rel="stylesheet" href="unified_style.css">
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+	<p class='heading'>Number Theory</p>
+	<div class='grid'></div>
+
+	</div>
+
+	<div class="circular__read">
+		
+	</div>
+	<a href="../index.html" class="back-button">Back</a>
+	<script>
+
+// Main
+		let grid = document.querySelector('.grid');
+		let algo = [
+			{
+				name: 'GCD ( Eucledian )',
+				link: `number_theory/gcd.html`
+			},
+			{
+				name: 'Extended Eucledian',
+				link: `number_theory/extended_eucledian.html`
+			},
+			{
+				name: "Sieve of Eratosthenes",
+				link :'number_theory/sieve_of_eratosthenes.html'
+			},
+			{
+				name: "Binary Exponentiation",
+				link: "number_theory/binary_exponentiation.html"
+			}
+		]
+		init();
+
+// Utility function 
+
+		function init() {
+			algo.forEach((e, i) => {
+				let html = `
+						<a href="${e.link}" class="algo__link">${e.name}</a>
+				`
+				let algo = document.createElement('div');
+				algo.classList.add('algo');
+				algo.innerHTML = html;
+				grid.appendChild(algo);
+			})
+		}
+	</script>
+</body>
+</html>

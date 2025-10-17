@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>String</title>
+	<link rel="stylesheet" href="unified_style.css">
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+	<p class='heading'>String</p>
+	<div class='grid'></div>
+
+	</div>
+
+	<div class="circular__read">
+		
+	</div>
+	<a href="../index.html" class="back-button">Back</a>
+	<script>
+
+// Main
+		let grid = document.querySelector('.grid');
+		let algo = [
+			{
+				name: 'Naive Search',
+				link: `string/naive_search.html`
+			},
+			{
+				name: 'Rabin Karp',
+				link: `string/robin_karp.html`
+			},
+			{
+				name: 'KMP Algorithm',
+				link: `string/kmp.html`
+			},
+// 			{
+// 				name: 'Boyer Moore',
+// 				link: `string/boyer_moore.html`
+// 			},
+			{
+				name: 'Z Function',
+				link: `string/z_function.html`
+			},
+		]
+		init();
+
+// Utility function 
+
+		function init() {
+			algo.forEach((e, i) => {
+				let html = `
+						<a href="${e.link}" class="algo__link">${e.name}</a>
+				`
+				let algo = document.createElement('div');
+				algo.classList.add('algo');
+				algo.innerHTML = html;
+				grid.appendChild(algo);
+			})
+		}
+	</script>
+</body>
+</html>

@@ -3,6 +3,11 @@
 An interactive algorithm visualization web app that helps students and developers understand how popular algorithms work — visually and intuitively.
 It covers a wide range of Data Structures and Algorithms, including Arrays, Sorting, Graphs, Queues, Recursion, and more.
 
+![HOME PAGE](githome/home1.png)
+![HOME PAGE](githome/home2.png)
+![GRAPH](githome/home3.png)
+
+
 F⚙️ Features
 
 ✅ Visualizes sorting, searching, graph traversal, number theory, and more

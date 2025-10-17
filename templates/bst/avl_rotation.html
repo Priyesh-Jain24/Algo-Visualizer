@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AVl Rotation</title>
+		<link rel="stylesheet" href="../a.css">
+
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+	<p>AVl Rotation</p>
+	<canvas class='grid' width="1000" height="550">
+		
+	</canvas>
+	<div class="opt">
+		<button class="ll">LL Rotation</button>
+		<button class="rr">RR Rotation</button>
+		<button class="lr">LR Rotation</button>
+		<button class="rl">RL Rotation</button>
+	</div>
+			<a href="../bst" class="back-button">Back</a>
+
+	<script>
+
+// Main
+	let ctx = document.querySelector("canvas").getContext("2d");
+	init();
+// Utility
+	function init() {
+		add_listeners();
+	}
+
+	function add_listeners() {
+		document.querySelector(".ll").addEventListener("click", () => {
+			ll_rotation();
+		})
+
+		document.querySelector(".lr").addEventListener("click", () => {
+			rl_rotation();
+		})
+
+		document.querySelector(".rr").addEventListener("click", () => {
+			rr_rotation();
+		})
+
+		document.querySelector(".rl").addEventListener("click", () => {
+			rl_rotation();
+		})
+	}
+
+	function ll_rotation() {
+		
+	}
+
+	function rr_rotation() {
+
+	}
+
+	function lr_rotation() {
+
+	}
+	function rl_rotation() {
+
+	}
+
+	function sleep(ms) {
+		return new Promise(resolve => setTimeout(resolve, ms));
+	}
+
+	</script>
+</body>
+</html>

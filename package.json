@@ -1,0 +1,17 @@
+{
+  "name": "algo-visualizer",
+  "version": "1.0.0",
+  "description": "visualise data structure and algorithm",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "google-chrome index.html"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "datastructure",
+    "algorithm"
+  ]
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Backtracking</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="unified_style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+	<p class='heading'>Backtracking</p>
+	<div class='grid'></div>
+
+	</div>
+
+	<div class="circular__read">
+		
+	</div>
+	<script>
+
+// Main
+		let grid = document.querySelector('.grid');
+		let algo = [
+			{
+				name: 'N Queen',
+				link: `backtracking/n_queen.html`
+			},
+			{
+				name: 'Maze Rat',
+				link: `backtracking/maze.html`
+			},
+			{
+				name: 'Sudoku',
+				link: `backtracking/sudoku.html`
+			},
+			{
+				name: 'Knight Tour',
+				link: `backtracking/knight_tour.html`
+			},
+			{
+				name: 'Graph Coloring',
+				link: `backtracking/graph_coloring.html`
+			}
+		]
+		init();
+
+// Utility function 
+
+		function init() {
+			algo.forEach((e, i) => {
+				let html = `
+						<a href="${e.link}" class="algo__link">${e.name}</a>
+				`
+				let algo = document.createElement('div');
+				algo.classList.add('algo');
+				algo.innerHTML = html;
+				grid.appendChild(algo);
+			})
+		}
+	</script>
+</body>
+</html>

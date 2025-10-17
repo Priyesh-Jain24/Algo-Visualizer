@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Closed Hashing</title>
+		<link rel="stylesheet" href="../a.css">
+
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+	<p class='heading'>Closed Hashing</p>
+	<div class='grid'></div>
+
+	</div>
+
+	<div class="circular__read">
+		
+	</div>
+	<!-- Back button that navigates to index.html -->
+	<a href="../hashing_table.html" class="back-button">Back</a>
+	<script>
+
+// Main
+		let grid = document.querySelector('.grid');
+		let algo = [
+			{
+				name: 'Linear Probing',
+				link: `closed_hashing/linear_probing.html`
+			},
+			{
+				name: 'Quadratic Probing',
+				link: `closed_hashing/quadratic_probing.html`
+			},
+			{
+				name: "Double Hashing",
+				link: 'closed_hashing/double_hashing.html'
+			}
+		]
+		init();
+
+// Utility function 
+
+		function init() {
+			algo.forEach((e, i) => {
+				let html = `
+						<a href="${e.link}" class="algo__link">${e.name}</a>
+				`
+				let algo = document.createElement('div');
+				algo.classList.add('algo');
+				algo.innerHTML = html;
+				grid.appendChild(algo);
+			})
+		}
+	</script>
+</body>
+</html>

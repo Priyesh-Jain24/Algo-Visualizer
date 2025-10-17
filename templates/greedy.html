@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Greedy</title>
+	<link rel="stylesheet" href="unified_style.css">
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+	<p class='heading'>Greedy Algorithm</p>
+	<div class='grid'></div>
+
+	</div>
+
+	<div class="circular__read">
+		
+	</div>
+	<a href="../index.html" class="back-button">Back</a>
+	<script>
+
+// Main
+		let grid = document.querySelector('.grid');
+		let algo = [
+			// {
+			// 	name: 'Prims',
+			// 	link: `greedy/prims.html`
+			// },
+			{
+				name: 'Kruskals MSP',
+				link: `greedy/kruskals.html`
+			},
+			{
+				name: 'Fractional Knapsack',
+				link: `greedy/knapsack.html`
+			},
+			{
+				name: 'Merge Intervals',
+				link: `greedy/merge_intervals.html`
+			},
+			{
+				name: 'Counting Money',
+				link: `greedy/counting_money.html`
+			},
+			{
+				name: 'Huffman Coding',
+				link: `greedy/huffman_coding.html`
+			},
+		]
+		init();
+
+// Utility function 
+
+		function init() {
+			algo.forEach((e, i) => {
+				let html = `
+						<a href="${e.link}" class="algo__link">${e.name}</a>
+				`
+				let algo = document.createElement('div');
+				algo.classList.add('algo');
+				algo.innerHTML = html;
+				grid.appendChild(algo);
+			})
+		}
+	</script>
+</body>
+</html>
