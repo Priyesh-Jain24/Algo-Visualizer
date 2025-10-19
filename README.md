@@ -3,6 +3,12 @@
 An interactive algorithm visualization web app that helps students and developers understand how popular algorithms work — visually and intuitively.
 It covers a wide range of Data Structures and Algorithms, including Arrays, Sorting, Graphs, Queues, Recursion, and more.
 
+---
+
+[**Check out the live demo!**](https://algo-visualizer-sandy.vercel.app/)
+
+---
+
 ## 🖼️ Screenshots
 
 ### Home Page
